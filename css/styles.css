@@ -1,19 +1,57 @@
-header {
+body {
+  margin: 120px auto 20px;
+  padding: 0 12px;
+  background-color: #e0ffcd;
+}
+
+header,
+footer {
   font-family: "Quicksand", sans-serif;
 }
 
 h1 {
   font-family: "Limelight", cursive;
-  font-size: 40px;
+  font-size: 45px;
+  margin-bottom: 4px;
 }
 
 h2 {
   font-family: "Quicksand", sans-serif;
-  font-size: 60px;
+  font-size: 20px;
+  margin-top: 7px;
 }
 
 p {
   font-family: "Darker Grotesque", sans-serif;
-  font-size: 30px;
+  font-size: 21px;
+  padding-top: 180px;
 }
 
+footer {
+  text-align: center;
+  font-size: 12px;
+  margin-top: 20px;
+}
+
+footer a {
+  text-decoration: none;
+}
+
+.navbar-brand {
+  font-family: "Limelight", cursive;
+  font-size: 25px;
+}
+
+.navbar {
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
+.introdution {
+  text-align: center;
+  padding-top: 80px;
+}
+
+.quote {
+  font-size: 18px;
+}
