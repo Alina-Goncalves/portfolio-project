@@ -1,6 +1,5 @@
 body {
   margin: 0 auto;
-  padding: 0 12px;
 }
 
 header,
@@ -36,9 +35,16 @@ a {
 footer {
   text-align: center;
   font-size: 12px;
+  line-height: 2.5;
   margin-top: 20px;
+  padding: 0 12px;
+  background-color: black;
+  color: white;
 }
 
+footer a {
+    color: white;
+}
 .navbar-brand {
   font-family: "Limelight", cursive;
   font-size: 25px;
@@ -51,7 +57,7 @@ footer {
 
 .introduction {
   text-align: center;
-  padding: 80px 0 20px;
+  padding: 80px 12px 20px;
   background-color: #e0ffcd;
 }
 
@@ -67,7 +73,7 @@ footer {
 
 .about-projects {
   text-align: center;
-  padding: 140px 0;
+  padding: 140px 12px;
 }
 
 .navigation-links {
@@ -81,6 +87,7 @@ footer {
 
 .contacts {
   text-align: center;
+  padding: 0 12px;
 }
 
 .social {
