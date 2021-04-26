@@ -23,7 +23,7 @@ h2 {
   font-size: 20px;
   font-weight: 900;
   margin-top: 7px;
-  padding-bottom: 225px;
+  padding-bottom: 212px;
 }
 
 p {
@@ -108,6 +108,10 @@ footer a {
   opacity: 65%;
 }
 
+.persona {
+  width: 270px;
+}
+
 .img-pages {
   width: 280px;
 }
@@ -136,31 +140,61 @@ footer a {
   color: #511c77;
 }
 
-.about-content {
-  background-color: #e0ffcd;
-  padding: 130px 12px 20px;
+.about-introduction {
+  background-image: url(/images/faial-island.JPG);
+  background-size: cover;
+  background-position-x: 40%;
+  background-position-y: 60%;
+  padding: 130px 12px 150px;
+}
+
+.about-content p {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  font-size: 15px;
+  line-height: 2;
+}
+
+.about-content a {
+  transition: all 150ms ease-in-out;
+}
+
+.about-content a:hover {
+  color: black;
+  opacity: 65%;
+}
+
+.about-content .container {
+  max-width: 900px;
+  margin: 0 auto;
 }
 
 .about-container {
   display: flex;
-  justify-content: space-around;
-}
-
-.about-container p {
-  text-align: left;
+  justify-content: start;
 }
 
 .about-me {
   font-family: var(--main-font);
   font-size: 50px;
+  text-align: left;
 }
 
-.persona {
-  width: 300px;
+.greetings {
+  color: white;
+  font-size: 21px;
+  text-align: end;
+  margin-left: 65px;
 }
 
-.photos p {
-  font-size: 14px;
+.about-images {
+  width: 370px;
+}
+
+
+.photo-alina {
+  width: 200px;
 }
 
 @media (max-width: 576px) {
@@ -190,5 +224,13 @@ footer a {
 
   .navigation-links {
     font-size: 22px;
+  }
+
+  .about-images {
+    width: 270px;
+  }
+
+  .about-text {
+    font-size: 10px;
   }
 }
