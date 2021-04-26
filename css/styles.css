@@ -175,7 +175,7 @@ footer a {
   justify-content: start;
 }
 
-.about-me {
+.title-intro {
   font-family: var(--main-font);
   font-size: 50px;
   text-align: left;
@@ -188,13 +188,29 @@ footer a {
   margin-left: 65px;
 }
 
-.about-images {
+.images {
   width: 370px;
 }
 
-
 .photo-alina {
   width: 200px;
+}
+
+.projects-introdution {
+  background-image: url(/images/work-place-bg.jpg);
+  background-size: cover;
+  background-position-x: 75%;
+  background-position-y: 60%;
+  padding: 130px 12px 150px;
+}
+
+.projects-container {
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.app-images {
+  max-width: 290px;
 }
 
 @media (max-width: 576px) {
@@ -226,11 +242,15 @@ footer a {
     font-size: 22px;
   }
 
-  .about-images {
-    width: 270px;
+  .images {
+    width: 260px;
   }
 
   .about-text {
     font-size: 10px;
+  }
+
+  .app-images {
+    max-width: 220px;
   }
 }
