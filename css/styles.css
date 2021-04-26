@@ -213,6 +213,25 @@ footer a {
   max-width: 290px;
 }
 
+.contact-page {
+  background-image: url(/images/caniçada-river.png);
+  background-size: cover;
+  background-position-x: 40%;
+  background-position-y: 70%;
+  padding: 220px 12px 0;
+}
+
+.contact-page a {
+  font-size: 25px;
+  font-weight: 600px;
+}
+
+.pages-title {
+  font-size: 22px;
+  width: fit-content;
+  margin: 0 auto;
+}
+
 @media (max-width: 576px) {
   h1 {
     font-size: 33px;
