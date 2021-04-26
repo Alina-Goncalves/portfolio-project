@@ -218,7 +218,7 @@ footer a {
   background-size: cover;
   background-position-x: 40%;
   background-position-y: 70%;
-  padding: 220px 12px 0;
+  padding: 212px 12px 0;
 }
 
 .contact-page a {
@@ -271,5 +271,13 @@ footer a {
 
   .app-images {
     max-width: 220px;
+  }
+
+  .title-intro {
+    font-size: 40px;
+  }
+
+  .contact-page {
+    padding-top: 235px;
   }
 }
